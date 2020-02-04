@@ -1,0 +1,35 @@
+h1
+{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 100px;
+    text-align: center;
+}
+h2
+{
+    text-decoration: underline;
+    text-align: center;
+}
+nav
+{
+    text-align: right;
+}
+div
+{
+    text-align: center;
+}
+.boucher
+{
+    width: 50%;
+    height: 50%;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+p
+{
+    text-align: center;
+}
+body
+{
+    background-color: pink;
+}
