@@ -1,0 +1,26 @@
+h1
+{
+    color: gold;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 100px;
+    
+}
+h2
+{
+    color: hotpink;
+    text-align: center;
+}
+nav
+{
+text-align: right;
+}
+body
+{
+    background-color: indigo;
+}
+img
+{
+    max-width: 100%;
+    
+}
