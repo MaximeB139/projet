@@ -1,0 +1,34 @@
+h2
+{
+    text-decoration: underline;
+    color: rgb(90, 180, 207);
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+p
+{
+    font-family: initial;
+    font-size: 20px;
+}
+section
+{
+    font-family: initial;
+    font-size: 20px;
+}
+div
+{
+    font-family: initial;
+    font-size: 20px;
+}
+
+nav
+{
+    text-align: right;
+    font-style: italic;
+}
+body
+{
+    background-color: rgba(195, 192, 192, 0.685);
+}
