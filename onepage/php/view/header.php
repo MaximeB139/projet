@@ -11,11 +11,12 @@
     <header>
         <nav>
 
-            <a href="#Présentation">Ecoles et formations</a>
+            <a href="#Présentation">Ecoles et Formations</a>
             <a href="#Experiences">Experiences</a>
             <a href="#Compétences">Compétences</a>
         </nav>
-        <img src="assets/img/logo.png" alt="logo">
+
+        <img src="assets/img/logoCV.png" alt="logo">
 
     </header>
 

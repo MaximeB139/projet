@@ -32,3 +32,21 @@ body
 {
     background-color: rgba(195, 192, 192, 0.685);
 }
+
+.container img
+{
+    width: calc(100%/5);
+    object-fit: cover;
+}
+.container
+{
+    display: flex;
+    
+}
+.z
+{
+    text-align: center;
+    background-color: rgb(90, 180, 207);
+    margin-right: 45%;
+    margin-left: 45%;
+}

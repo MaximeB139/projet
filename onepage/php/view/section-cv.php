@@ -65,3 +65,18 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vel perspiciatis, rem voluptates quaerat id laboriosam ea maiores reprehenderit accusamus quam, doloremque ex cum molestiae sapiente libero adipisci? Cumque, aut.
             </p>
         </section>
+        
+<div class="container"> 
+<?php
+    $tableau    = [ "logo1.png", "logo3.png", "logo2.png", "logo4.png", "logo5.png" ];
+    $tableauAlt = ["alt1", "alt2", "alt3", "alt4", "alt5" ];
+    for($i=0; $i < count($tableau); $i++)
+    {
+        echo
+    <<<CODEHTML
+                <img src="assets/img/$tableau[$i] " alt="$tableauAlt[$i]">
+     
+    CODEHTML;    
+    }
+?>    
+</div>
