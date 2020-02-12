@@ -80,3 +80,15 @@
     }
 ?>    
 </div>
+    </section>
+    <form action="#s5" method="GET">
+            <input type="text" name="nom" placeholder="entrez votre nom" required>
+            <br>
+            <input type="email" name="email" placeholder="entrez votre email"required>
+            <br>
+            <textarea name="message" cols="60" rows="8" maxlength="1000" placeholder="entrez votre message" required></textarea>
+            <button type="submit">envoyer votre message</button>
+            <div>
+                <?php require_once "php/controller/traitement-contact.php" ?>
+            </div>
+        </form>
