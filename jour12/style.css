@@ -1,0 +1,19 @@
+h1
+{
+    color: rgb(133, 43, 185);
+    text-decoration: underline;
+    font-size: 5em;
+    text-align: center;
+    
+}
+select
+{
+    font-weight: bolder;
+    color: olive;
+    font-style: italic;
+    font-weight: 50em;
+}
+#optin
+{
+    height: 50px;
+}
