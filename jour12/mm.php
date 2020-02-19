@@ -9,7 +9,8 @@
 </head>
 <body>
     <header>
-    <button id="clickme">Cliquez-ici !</button>
+    <input type="button" value="cliquez ici" id="popup">
+    
 
 
     </header>
@@ -20,12 +21,10 @@
   <select name="optin" id="optin"> 
     <option value="oui">Je choisis oui</option> 
     <option value="non">Je choisis non</option> 
-  </select> 
+  </select>  
   <input type="submit" onclick="return valideselect()" />   
-   
-</form>
 
-        
+   </form>
     
     </main>
     <footer>

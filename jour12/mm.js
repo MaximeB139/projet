@@ -15,16 +15,13 @@ function valideselect() {
    } 
  }
 
- var element = document.getElementById('clickme');
-    
-    // Premier événement click
-    element.addEventListener('click', function() {
-        alert("Est tu sur ?");
-    });
-    // Deuxième événement click
-    element.addEventListener('click', function() {
-        alert("Vraiment sur ?");
-    });
-    element.addEventListener('click', function() {
-        alert("jure woula !");
-    });
+const popup = document.querySelector("#popup");
+popup.addEventListener('click', openPopup);
+function openPopup()
+{
+  window.open("popup.php");
+}
+
+  
+
+
