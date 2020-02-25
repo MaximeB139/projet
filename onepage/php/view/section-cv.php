@@ -55,15 +55,15 @@
         </section>
         <section id="Compétences">
             <h2>Compétences</h2>
-            <div> Ipsum dolor sit amet consectetur adipisicing elit. Omnis minima at quam repellendus 
-            </div>
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
-            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta porro voluptas nesciunt reiciendis, incidunt, ipsam ab illum minus vitae doloribus eos, magnam minima fugiat. Placeat vel eligendi ratione libero nam.
-            </div>
-            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, velit enim iusto magnam alias perspiciatis! Vel et velit doloremque excepturi sint maiores blanditiis voluptate enim. Suscipit, porro vel? Accusamus, exercitationem.
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vel perspiciatis, rem voluptates quaerat id laboriosam ea maiores reprehenderit accusamus quam, doloremque ex cum molestiae sapiente libero adipisci? Cumque, aut.
-            </p>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quos suscipit dolor excepturi illo in numquam harum odio eos voluptatem, dolores id veritatis unde non minus enim! Doloribus, expedita voluptate.
+                </div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta porro voluptas nesciunt reiciendis, incidunt, ipsam ab illum minus vitae doloribus eos, magnam minima fugiat. Placeat vel eligendi ratione libero nam.
+                </div>
+                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, velit enim iusto magnam alias perspiciatis! Vel et velit doloremque excepturi sint maiores blanditiis voluptate enim. Suscipit, porro vel? Accusamus, exercitationem.
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla vel perspiciatis, rem voluptates quaerat id laboriosam ea maiores reprehenderit accusamus quam, doloremque ex cum molestiae sapiente libero adipisci? Cumque, aut.
+                </p>
         </section>
         
 <div class="container"> 
@@ -81,6 +81,7 @@
 ?>    
 </div>
     </section>
+<div class="q">
     <form action="#s5" method="GET">
             <input type="text" name="nom" placeholder="entrez votre nom" required>
             <br>
@@ -88,7 +89,14 @@
             <br>
             <textarea name="message" cols="60" rows="8" maxlength="1000" placeholder="entrez votre message" required></textarea>
             <button type="submit">envoyer votre message</button>
+</div>
             <div>
                 <?php require_once "php/controller/traitement-contact.php" ?>
             </div>
+            <div id="countries"></div>
+    <!-- <hr>
+    <button id="list-users">List all users</button>
+    <hr>
+    <div id="users-list"></div> -->
+    <script src="assets/js/app.js"></script>
         </form>
