@@ -12,6 +12,7 @@
                 <a href="index.php">accueil</a>
                 <a href="news.php">news</a>
                 <a href="contact.php">contact</a>
+                <a href="admin.php">admin</a>
             </nav>
         <h1>MON SITE D'ACTUS</h1>
         
