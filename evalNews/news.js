@@ -13,7 +13,6 @@ var callBackGetSuccess = function(data) {
 }
 
 
-
 function buttonClickGET() {
     var url  = 'http://newsapi.org/v2/top-headlines?' +
     'country=us&' +
